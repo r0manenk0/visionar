@@ -37,6 +37,9 @@ gulp.task('styles', function() {
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/bootstrap/bootstrap.min.js',
+		'app/libs/bootstrap/bootstrap.bundle.min.js',
+		'app/libs/mixitup/dist/mixitup.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

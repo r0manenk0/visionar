@@ -5,13 +5,68 @@
 
 // ≥1200px
 +media-breakpoint-down(lg)
-
+  .page__wrapper
+    margin: 90px 60px
+  .main__nav
+    margin-left: 60px
+    margin-right: 60px
 // ≥992px
 +media-breakpoint-down(md)
+  .page__wrapper
+    margin: 60px 40px
+  .main__nav
+    height: 60px
+  .navbar
+    margin-left: 0
+    margin-right: 0
+    .logo__wrapper
+      height: 100%
+      margin-left: 20px
+      .navbar__logo
+        width: 150px
+        top: 4px
 
+  .navbar .navbar-collapse
+    margin-right: 0
+    margin-left: 0
+    background-color: #f3f3f3
+    .nav__lang
+      margin-left: 20px
+      padding: 0 0 16px 0
+      position: relative
+      flex-direction: row
+      justify-content: flex-start
+      margin-top: 1.4em
+      .nav-item
+        .nav-link
+          font-size: 1em
+    .nav__list
+      padding: 20px 0 10px 0
+      margin-left: 20px
+      .nav-item
+        margin-left: 0
+        margin-right: auto
+        margin-bottom: 0.9em
+        .nav-link
+          font-size: 1.2em
+
+  .navbar-light .navbar-toggler
+    border: none
+    padding: 0
+    outline: none
+    margin-right: 20px
+  .nav__devider
+    margin-left: 20px
+    background-color: #e2e2e2
+    color: #e2e2e2
+    width: 200px
 // ≥768px
 +media-breakpoint-down(sm)
-
+  .page__wrapper
+    margin: 60px 20px
+  .navbar
+    margin-left: 0
+    margin-right: 0
 // ≥576px
 +media-breakpoint-down(xs)
 
