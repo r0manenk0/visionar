@@ -3,6 +3,12 @@
 
 /*==========  Desktop First  ==========*/
 
+// ≥1560px
++media-breakpoint-down(x-l)
+  .footer__contacts li
+    padding-left: 2em
+  .footer__social li
+    padding-left: 0.6em
 // ≥1200px
 +media-breakpoint-down(lg)
   .page__wrapper
@@ -10,10 +16,14 @@
   .main__nav
     margin-left: 60px
     margin-right: 60px
+  footer
+    padding: 30px 60px
 // ≥992px
 +media-breakpoint-down(md)
   .page__wrapper
     margin: 60px 40px
+  footer
+    padding: 20px 40px
   .main__nav
     height: 60px
   .navbar
@@ -21,7 +31,7 @@
     margin-right: 0
     .logo__wrapper
       height: 100%
-      margin-left: 20px
+      margin-left: 40px
       .navbar__logo
         width: 150px
         top: 4px
@@ -54,7 +64,7 @@
     border: none
     padding: 0
     outline: none
-    margin-right: 20px
+    margin-right: 40px
   .nav__devider
     margin-left: 20px
     background-color: #e2e2e2
@@ -67,9 +77,34 @@
   .navbar
     margin-left: 0
     margin-right: 0
+  .navbar-light .navbar-toggler
+    margin-right: 20px
+  .navbar
+    .logo__wrapper
+      margin-left: 20px
+  footer
+    font-size: 0.8em
+    .footer__logo
+      width: 140px
+      margin: 1em auto
+    .footer__contacts
+      margin: 1em 0
+      li
+        display: block
+        padding-left: 0
+    .footer__social
+      justify-content: center
+      margin: 1em auto
+      li:first-child
+        padding-left: 0
+
 // ≥576px
 +media-breakpoint-down(xs)
-
+  .mixer
+    padding-left: 0
+    li
+      display: block
+      margin-left: 0
 
 /*==========  Mobile First  ==========*/
 
