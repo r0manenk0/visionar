@@ -21,5 +21,10 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "mixitup": "^3.3.0"
+  },
+  "dependencies": {
+    "aos": "^2.3.0",
+    "gsap": "^2.0.1",
+    "scrollmagic": "^2.0.5"
   }
 }

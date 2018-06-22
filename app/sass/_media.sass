@@ -3,7 +3,7 @@
 
 /*==========  Desktop First  ==========*/
 
-// ≥1560px
+// ≥1366px
 +media-breakpoint-down(x-l)
   .footer__contacts li
     padding-left: 2em
@@ -16,6 +16,10 @@
   .main__nav
     margin-left: 60px
     margin-right: 60px
+    padding-left: 0
+    padding-right: 0
+  .navbar .navbar-collapse .nav__lang
+    right: 0
   footer
     padding: 30px 60px
 // ≥992px
@@ -70,6 +74,33 @@
     background-color: #e2e2e2
     color: #e2e2e2
     width: 200px
+  .face
+    align-items: center
+    justify-content: center
+    .face__photo
+      display: flex
+      margin-bottom: 2em
+  p
+    font-size: 1.2em
+  .face .face__description p
+    font-size: 1.2em
+  .face:nth-child(odd) .face__description, .face:nth-child(even) .face__description
+    margin-right: 0
+    margin-left: 0
+  .projekt__title
+    margin-top: 2em
+    h1
+      font-size: 2em
+      letter-spacing: 0.1em
+  .tasks
+    p
+      margin-right: 0
+    h2
+      font-size: 1.8em
+  .projekt__description h3
+    font-size: 1.4em
+
+
 // ≥768px
 +media-breakpoint-down(sm)
   .page__wrapper
@@ -97,6 +128,10 @@
       margin: 1em auto
       li:first-child
         padding-left: 0
+  .home__description
+    margin: 4em 0
+  section
+    padding: 4em 0
 
 // ≥576px
 +media-breakpoint-down(xs)
@@ -114,6 +149,16 @@
       margin: 0.2em 0
       &:before
         bottom: 0
+  .projekt__title
+    margin-top: 2em
+    h1
+      font-size: 1.8em
+      letter-spacing: 0.1em
+  .tasks
+    h2
+      font-size: 1.6em
+  .projekt__description h3
+    font-size: 1.4em
 
 /*==========  Mobile First  ==========*/
 

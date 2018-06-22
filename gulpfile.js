@@ -40,6 +40,9 @@ gulp.task('js', function() {
 		'app/libs/bootstrap/bootstrap.min.js',
 		'app/libs/bootstrap/bootstrap.bundle.min.js',
 		'app/libs/mixitup/dist/mixitup.min.js',
+		'app/libs/gsap/src/uncompressed/TweenMax.js',
+		'app/libs/scrollmagic/uncompressed/ScrollMagic.js',
+		'app/libs/scrollmagic/uncompressed/plugins/animation.gsap.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

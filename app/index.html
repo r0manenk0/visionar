@@ -27,103 +27,196 @@
 
 </head>
 
-<body>
+<body id="home">
 
-
+	<nav class="navbar fixed-top navbar-light navbar-expand-lg main__nav">
+		<div class="logo__wrapper">
+			<a class="navbar-brand navbar__logo" href="/"><img class="img-responsive navbar__logo" src="img/logo.png" alt="" width="200"></a>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="nav navbar-nav nav__list">
+				<li class="nav-item active">
+					<a href="/" class="nav-link">Бюро</a>
+				</li>
+				<li class="nav-item">
+					<a href="projekts.html" class="nav-link">Проекты</a>
+				</li>
+				<li class="nav-item">
+					<a href="workshop.html" class="nav-link">Цех</a>
+				</li>
+			</ul>
+			<hr class="d-xs-block d-sm-block d-md-none nav__devider">
+			<ul class="nav navbar-nav nav__lang">
+				<li class="nav-item active">
+					<a href="#" class="nav-link">RU</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">EN</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 <div class="page__wrapper">
-			<nav class="navbar fixed-top navbar-light navbar-expand-lg main__nav">
-		  	<div class="logo__wrapper">
-		  		<a class="navbar-brand navbar__logo" href="#"><img class="img-responsive navbar__logo" src="img/logo.png" alt="" width="200"></a>
-		  	</div>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle nav">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-				<div class="collapse navbar-collapse" id="navbarContent">
-					<ul class="nav navbar-nav nav__list">
-						<li class="nav-item">
-							<a href="#" class="nav-link">Бюро</a>
-						</li>
-						<li class="nav-item active">
-							<a href="#" class="nav-link">Проекты</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Цех</a>
-						</li>
-					</ul>
-					<hr class="d-xs-block d-sm-block d-md-none nav__devider">
-					<ul class="nav navbar-nav nav__lang">
-						<li class="nav-item active">
-							<a href="#" class="nav-link">RU</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">EN</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
+
 	<!--HERO-->
-	<div class="hero__image" style="background-image:url('../img/header.jpg');"></div>
-
-	<div class="container-fluid controls__wrapper">
-		<div class="row justify-content-sm-center controls">
-				<button data-filter=".frequent" >Частные</button>
-				<button data-filter=".commercial">Коммерческие</button>
-				<button data-filter=".cultural">Культурные</button>
-		</div>
-	</div>
-	<div class="container-fluid square__wrapper">
-		<div class="row" id="portfolio">
-				<div class="col-md-4 square mix frequent">
-					<div class="square__item" style="background-image:url(img/w1.jpg);">
-						<div class='square__title'>
-				        		<h3>Название работы</h3>
-				      		</div>
-					</div>
-				</div>
-				<div class="col-md-4 square mix commercial">
-					<div class="square__item" style="background-image:url(img/w2.jpg);">
-						<div class='square__title'>
-				        		<h3>Название работы</h3>
-				      		</div>
-					</div>
-				</div>
-				<div class="col-md-4 square mix frequent">
-					<div class="square__item" style="background-image:url(img/w3.jpg);">
-						<div class='square__title'>
-				        		<h3>Название работы</h3>
-				      		</div>
-					</div>
-				</div>
-				<div class="col-md-4 square mix commercial">
-					<div class="square__item" style="background-image:url(img/w4.jpg);">
-						<div class='square__title'>
-				        		<h3>Название работы</h3>
-				      		</div>
-					</div>
-				</div>
-				<div class="col-md-4 square mix cultural">
-					<div class="square__item" style="background-image:url(img/w5.jpg);">
-						<div class='square__title'>
-				        		<h3>Название работы</h3>
-				      		</div>
-					</div>
-				</div>
-				<div class="col-md-4 square mix cultural">
-					<div class="square__item" style="background-image:url(img/w6.jpg);">
-						<div class='square__title'>
-				        		<h3>Название работы</h3>
-				      		</div>
-					</div>
-				</div>
-		</div>
+	<div class="embed-responsive embed-responsive-16by9 fade__in1">
+		<iframe src="https://player.vimeo.com/video/218909410?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>
 	</div>
 
+	<div class="container-fluid wrp">
+		<div class="row justify-content-center">
+			<div class="col-md-10 col-lg-7 text-center home__description fade__in">
+				<h1 class="fade__in1">Бюро</h1>
+				<p class="fade__in2">VISIONÄR by Roman Kovalishin специализируется на декоре, флористике и организации мероприятий. C 2005 года мы создали более 500 уникальных концепций декора для общественных и частных проектов в России и за рубежом.</p>
+			</div>
+			<div class="col-lg-6 col-md-12 face">
+				<div class="row">
+					<div class="col-lg-4">
+						<img src="img/f1.jpg" class="img-responsive face__photo mx-auto fade__in3" alt="">
+					</div>
+					<div class="col-lg-8">
+						<div class="face__description text-center text-lg-left">
+							<h2 class="fade__in1">РОМАН КОВАЛИШИН</h2>
+							<p class="fade__in2">Основатель VISIONÄR, художник-декоратор, флорист, арт-директор Four Seasons Hotel Moscow, один из организаторов легендарного проекта Midsummer Night’s Dream.</p>
+							<a class="fade__in2" href="tel:+7 495 784 42 80">+7 495 784 42 80</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 face align-items-stretch">
+				<div class="row">
+					<div class="col-lg-4 order-lg-12 ">
+						<img src="img/f2.jpg" class="img-responsive face__photo mx-auto fade__in3" alt="">
+					</div>
+					<div class="col-lg-8 order-lg-1">
+						<div class="face__description text-center text-lg-right">
+							<h2 class="fade__in1">САЯНА МАКСАНОВА</h2>
+							<p class="fade__in2">Cо-основатель и креативный директор.</p>
+							<a class="fade__in2" href="tel:+7 905 738 87 00">+7 905 738 87 00</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	</div>
+	<section class="smlogo smlogo__fup1">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-12 section__title">
+					<h3>Клиенты</h3>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c1.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c2.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c3.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c4.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c5.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c6.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c7.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c8.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c9.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c10.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c11.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c12.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c13.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c14.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c15.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<img src="img/clients/c16.png" class="img-responsive" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="smlogo smlogo__fup2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section__title">
+					<h3>Наши партнеры</h3>
+				</div>
+				<div class="col-md-4 smlogo__wrp">
+					<a href=""><img src="img/partners/p1.png" alt=""></a>
+				</div>
+				<div class="col-md-4 smlogo__wrp">
+					<a href=""><img src="img/partners/p2.png" alt=""></a>
+				</div>
+				<div class="col-md-4 smlogo__wrp">
+					<a href=""><img src="img/partners/p3.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="smlogo smlogo__fup3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section__title">
+					<h3>Пресса</h3>
+					<p>Мы гораздо скромнее своих проектов. Но именно о них и наших клиентах пишут все эти издания.</p>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<a href="#"><img src="img/press/pr1.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<a href="#"><img src="img/press/pr2.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<a href="#"><img src="img/press/pr3.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<a href="#"><img src="img/press/pr4.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<a href="#"><img src="img/press/pr5.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<a href="#"><img src="img/press/pr6.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<a href="#"><img src="img/press/pr7.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-md-3 col-6 smlogo__wrp">
+					<a href="#"><img src="img/press/pr8.png" class="img-responsive" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</section>
 	<footer>
 		<div class="container-fluid footer__container">
 			<div class="row no-gutters align-items-center">
 				<div class="col-md-1">
-					<img src="img/eye.png" alt="" class="img-responsive footer__logo">
+					<a href="/"><img src="img/eye.png" alt="" class="img-responsive footer__logo"></a>
 				</div>
 				<div class="col-md-10">
 					<ul class="footer__contacts">
