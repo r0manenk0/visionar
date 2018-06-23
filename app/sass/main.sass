@@ -77,14 +77,12 @@ a
 		width: 180px
 	.navbar-collapse
 		background-color: #fff
-		.nav-item
+		li
 			position: relative
-			.nav-link
+			a
 				font-size: 1.4em
 				font-family: futuraDemiC
 				text-transform: uppercase
-				transition: all 0.2s ease-in-out
-			.nav-link
 				transition: all 0.2s ease-in-out
 				&:before
 					content: ''
@@ -102,16 +100,16 @@ a
 					&:before
 						visibility: visible
 						transform: scaleX(1)
-			&.active
-				.nav-link
+			&.current_page_item
+				a
 					&:before
 						visibility: visible
 						transform: scaleX(1)
 		.nav__list
 			margin: 0 auto
-			.nav-item
+			li
 				margin: 0 2em
-				.nav-link
+				a
 					padding: 0
 		.nav__lang
 			position: absolute
@@ -326,8 +324,12 @@ section
 			color: rgba($text, 0.8)
 	&:nth-child(1)
 		text-align: right
-
-
+.project__video
+	margin-bottom: 4em
+.swiper-container
+	height: 100%
+.swiper-pagination-bullet-active
+	background-color: #fff
 
 
 .fade__in1, .fade__in2, .fade__in3, .fade__in4
